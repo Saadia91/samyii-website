@@ -1,0 +1,170 @@
+body {
+  padding: 0px;
+  margin-right: 55px;
+  margin-left: 55px;
+  font-family: 'Pompiere', cursive;
+}
+.top-bar {
+  margin: 0px -55px;
+  text-align: right;
+  padding: 10px;
+  background-color: #3f3f3f;
+}
+input[type=text] {
+  font-family: 'Life Savers', cursive;
+  font-weight: bold;
+  width: 160px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  width: 30%;
+}
+.section1 {
+}
+                                    /* ICON BAR*/
+.icon-bar {
+  margin-left: -55px;
+  width: 55px;
+  background-color: #555;
+  position: fixed;
+  z-index: 1;
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+.active {
+  background-color: #4CAF50 !important;
+}
+.pixabay-ic {
+  width: 35px;
+}
+i {
+  font-size: 24px !important;
+}
+                                        /*ICON BAR ENDs*/
+.webtitle {
+  padding: 50px 0px;
+  text-align: center;
+  font-family: 'Knewave', cursive;
+  font-size: 80px;
+  color: #282828;
+  font-weight: 200;
+}
+.twitter {
+  text-align: right;
+  padding-right: 0px;
+}
+                                    /*Navigation*/
+.navigation {
+  border: 2px solid #3f3f3f;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Life Savers', cursive;
+  font-family: 'Pompiere', cursive;
+  color: #282828;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.navigation span{
+  text-align: center;
+  color: #282828;
+}
+nav.navigation span:nth-child(1n+1) {
+  padding: 10px 22px;
+}
+.navigation span a {
+  color: #282828;
+}
+.navigation span a:link{
+  color: #282828;
+  text-decoration: none;
+}
+.navigation span a:hover{
+  color: gray;
+  text-decoration: none;
+}
+.navigation span a:visited{
+  text-decoration: none;
+}
+.navigation span a:active{
+  text-decoration: none;
+}                                   /*navigation End*/
+
+.main-content{}
+.content-left{
+  max-width: 65%;
+  float: left;
+  margin-right: -35px;
+}
+.section2 {
+  height: 453px;
+}
+.carousel {
+  margin-left: -13px;
+}
+                              /*Slidder End Posts begin*/
+.headlines {
+  margin-top: 40px;
+}
+.title-recent {
+  font-family: 'Knewave', cursive;
+}
+article {
+  margin-top: 50px;
+}
+article > h1 {
+  font-family: 'Life Savers', cursive;
+  font-weight: bold;
+}
+article > p {
+  font-size: 20px;
+}
+                              /*Sidebar Begins*/
+.sidebar {
+  max-width: 32%;
+  float: right;
+  width: 32%;
+  margin-left: -30px;
+}
+.sidebar .bio h3 {
+  text-align: center;
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.sidebar .bio .bio-img {
+  border-radius: 50%;
+  height: 150px;
+}
+.sidebar .bio {
+  text-align: center;
+}
+.sidebar .bio p {
+  font-family: 'Just Another Hand', cursive;
+  font-size: 25px
+}
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: block;
+  visibility: none;
+}
+.footer {
+  margin: 40px -50px 0px -55px;
+  padding: 30px 0px;
+  background-color: #3f3f3f;
+  font-family: 'Life Savers', cursive;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}

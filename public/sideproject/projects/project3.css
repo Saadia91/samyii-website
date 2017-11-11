@@ -1,0 +1,254 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-size: cover;
+}
+#section1 {
+  background-image: url("http://oi67.tinypic.com/rw3x49.jpg");
+  height: 730px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+                                            /*Navigation Bar*/
+div.navbar {
+  width: 100%;
+  background: rgba(5, 5, 5,0.3);
+  text-align: center;
+  margin-top: -20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: fixed;
+  z-index: 1;
+}
+#navigation > div > a {
+  Font-family: 'Playfair Display', serif;
+  color: white;
+  text-align: center;
+  padding-right: 17px;
+  padding-left: 17px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+#navigation > div > a:nth-child(1n+3) {
+  border-left: 1px solid gray;
+}
+#navigation > div > a:link {
+  text-decoration: none;
+}
+#navigation > div > a:visited {
+  text-decoration: none;
+}
+#navigation > div > a:hover {
+  text-decoration: underline;
+}
+#navigation > div > a:active {
+  color: gray;
+}
+                                          /*Title, date, quote*/
+#titlesec {
+  width: 50%;
+}
+.title {
+  font-family: 'Tangerine', cursive;
+  font-size: 100px;
+  font-weight: lighter;
+  padding-top: 180px;
+  text-align: center;
+}
+.life {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-top: 30px;
+  text-align: center;
+}
+.occupation {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: lighter;
+}
+                                                /*Section 2*/
+.graybg {
+  display: inline-block;
+  width: 100%;
+  background: #f9f9f9;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  color: #3a3a3a;
+}
+.sectiondate {
+  font-family: 'Baloo', cursive;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.sectiontitle {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 45px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.sectioninfo {
+  font-family: 'Baloo', cursive;
+  font-size: 25px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.section2 {
+  background-image: url("http://oi65.tinypic.com/ve6vr5.jpg");
+  background-size: cover;
+  height: 700px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.paragraphs {
+  display: inline-block;
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.paratext {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.paratext > a:link {
+  color: gray;
+  text-decoration: none;
+}
+.paratext > a:visited {
+  color: gray;
+  text-decoration: none;
+}
+.paratext > a:hover{
+  color: #6d6d6d;
+  text-decoration: underline;
+}
+.paratext > a:active{
+  color: #000000;
+  text-decoration: none;
+}
+
+                                                /*Quote*/
+.quote1 {
+  width: 35%;
+  padding-top: 250px;
+  padding-left: 20px;
+}
+.quote1 > p{
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}                                               /*End Quote*/
+                                     /*section 3 Career 1*/
+.section3 {
+  background-image: url("http://oi68.tinypic.com/71n4tu.jpg");
+  background-size: cover;
+  height: 700px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.quote2 {
+  text-align: right;
+  padding-top: 350px;
+}
+.quote2 > p{
+  padding-right: 20px;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+                                              /*Filmography*/
+.section4 {
+  background-image: url("http://oi64.tinypic.com/2ike3he.jpg");
+  background-size: cover;
+  height: 700px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+                                                /*TIMELINE*/
+.timeline {
+  background: #ffe8e8;
+  padding-bottom: 20px;
+}
+.timeline ul li {
+  font-family: 'PT Sans', sans-serif;
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+.timeline ul li time {
+  font-family: 'Playfair Display', serif;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 200px;
+  padding: 15px;
+  background: #ffffff;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+.timeline ul li:nth-child(even) div {
+  left: -270px;
+  text-align: right;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #ffffff;
+}
+                                                 /*Timeline END*/
+.section5 {
+  background-image: url("http://oi63.tinypic.com/14kczrk.jpg");
+  background-size: cover;
+  height: 580px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.quote3 {
+  width: 35%;
+  padding-top: 250px;
+  padding-left: 20px;
+}
+.quote3 > p{
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}

@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.b-nav {
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 24px;
+    padding-top: 10px;
+}
+.b-nav ul li{
+    display: inline-block;
+}
+.b-nav ul li a {
+    text-decoration: none;
+    color: #2b3442;
+    padding: 10px 13px;
+    line-height: 19px;
+}
+.b-nav ul li a:hover {
+  color: #cccccc;
+}
+.background {
+    background-image: url("cam.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.logo {
+    font-family: 'Knewave', cursive;
+    color: #2b3442;
+    text-align: center;
+    font-size: 30px;
+}
+.page-title {
+  font-family: 'Stint Ultra Expanded', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+.row {
+    padding: 0 120px;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.column img {
+    margin-top: 12px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (min-width: 900px) {
+    .column {
+        width: 25%;
+    }
+}
+@media (max-width: 800px) {
+    .logo {
+        font-size: 25px;
+    }
+    .column {
+        width: 50%;
+    }
+    .row {
+        padding: 0 40px;
+    }
+    .b-nav {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    b-nav {
+        font-size: 24px;
+        padding-top: 40px;
+    }
+    .b-nav ul li a {
+        padding: 10px 13px;
+        line-height: 19px;
+    }
+    .b-nav {
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin-left: -40px;
+    }
+    .b-nav ul li a {
+        padding-top: 10px;
+        padding-right: 2px;
+        line-height: 13px;
+    }
+}
+@media (max-width: 600px) {
+    .logo {
+        font-size: 18px;
+    }
+    .column {
+        width: 50%;
+    }
+    .row {
+        padding: 0 40px;
+    }
+}

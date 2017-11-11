@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Playfair Display', serif;
+}
+#section1 {
+  background-image: url(images/rowoils.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#top-bar {
+  background-color: white;
+}
+.login {
+  font-family: 'Playfair Display', serif;
+  margin: 5px;
+  text-align: right;
+}
+.logo {
+  width: 150px;
+  padding-left: 50px;
+}
+.navigation {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  color: #669966;
+  padding: 10px;
+}
+.navigation span{
+  position: relative;
+  left: 33%;
+}
+nav.navigation span:nth-child(1n+1) {
+  padding: 10px 22px;
+}
+.navigation span a:link {
+  color: #669966;
+  text-decoration: none;
+}
+.intro-transparent {
+  background-color: rgba(0, 0, 0, 0);
+}
+.title {
+  font-family: 'Tangerine', cursive;
+  font-size: 100px;
+  color: white;
+  font-weight: normal;
+  text-align: right;
+  margin: 60px 40px 40px 0px
+}
+.intro-text {
+  color: white;
+  font-size: 45px;
+  font-family: 'Tangerine', cursive;
+  text-align: right;
+  margin: 30px 40px 0px 0px;
+  padding-bottom: 60px;
+}
+#section2 {
+ background-color: white;
+}
+.articles {
+  background-color: white;
+  padding: 20px 50px;
+}
+.art {
+  padding: 30px 10px;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#section3 {
+  background-image: url(images/salts.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+article > header {
+  padding: 10px;
+}
+article > p {
+  padding: 10px 0px;
+}
+article > img {
+}
+header > h1 > a {
+  font-size: 40px;
+  font-family: 'Tangerine', cursive;
+  padding: 20px 0px;
+}
+header > h1 > a:link {
+  color: #669966;
+  text-decoration: none;
+}
+header > h1 > a:visited {
+  color: #669966;
+  text-decoration: none;
+}
+header > h1 > a:hover {
+  color: #669966;
+  text-decoration: underline;
+}
+header > h1 > a:active {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black
+}
+article > p {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+}
+article > img {
+  width: 400px;
+}
+.salts-title {
+  font-size: 100px;
+  font-family: 'Tangerine', cursive;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  padding-top: 110px;
+  padding-bottom: 20px;
+}
+.salts-intro {
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}

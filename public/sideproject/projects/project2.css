@@ -1,0 +1,127 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+.t-header {
+  background: white;
+  margin-top: -10px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.t-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.t-header::after {
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.logo {
+	float: left;
+  margin-top: 10px;
+}
+.t-nav {
+	float: right;
+}
+.t-nav ul li{
+  margin-top: 15px;
+  display: inline-block;
+}
+.t-nav ul li a {
+  padding: 10px 20px;
+	text-decoration: none;
+	color: #161616;
+  line-height: 40px;
+}
+.t-nav ul li a:hover {
+	color: #d7e9f2;
+}
+
+                          /*Navigation end*/
+#sec1 {
+  background-image: url(http://oi65.tinypic.com/2l8u9o8.jpg);
+  background-size: cover;
+  height: 520px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: -10px;
+}
+.title {
+  padding: 115px 0px 10px 10%;
+  font-size: 80px;
+  color: #ffffff;
+  font-family: 'Abel', sans-serif;
+}
+.sub-head {
+  padding: 20px 0px 70px 10%;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Abel', sans-serif;
+}
+                        /*Food Section*/
+.section-head {
+  padding: 60px 30px 0px 30px;
+}
+.section-head a {
+  color: black;
+  text-decoration: none;
+}
+.section-head a {
+  color: #00000;#d7e9f2
+  text-decoration: none;
+}
+.section-head a:hover {
+  color: #d7e9f2;
+  text-decoration: none;
+}
+.articles101 {
+  text-align: center;
+  padding-top: 30px;
+}
+.f-image {
+  width: 230px;
+  border-radius: 50%;
+  padding-bottom: 15px;
+}
+.f-name {
+  font-size: 30px;
+}
+.f-description {
+  padding: 10px 15px 50px 15px;
+}
+                        /*Contact Section*/
+#sec2 {
+  background-image: url(http://oi64.tinypic.com/nppe1z.jpg);
+  background-size: cover;
+  height: 650px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: -10px;
+}
+.titlecon {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 80px;
+  color: #ffffff;
+  font-family: 'Abel', sans-serif;
+}
+.sub-headcon {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Abel', sans-serif;
+}
+#social {
+  padding-top: 30px;
+  text-align: center;
+}
+.email {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+}
